@@ -35,18 +35,6 @@ This project is a **Streamlit-based web application** that monitors potential **
    - Computes all indicators safely with forward-filling and rolling windows.  
    - API key for OpenAI loaded securely from `.env`.
 
----
-
-## 🔹 Project Structure
-commodity_platform/
-│
-├─ data_processing.py # Fetches commodity data, computes returns, volatility, ATR, momentum, RSI, MACD, volume surge, shock flags, risk index
-├─ visualization.py # Functions to plot price, volatility, ATR, momentum, RSI, MACD, volume surge, risk index, and alerts
-├─ model_training.py # Prepares ML features, trains Random Forest, predicts short-term shock events
-├─ utils.py # Helper functions including GPT summary generator
-├─ streamlit_app.py # Main interactive app integrating all modules
-├─ requirements.txt # Python dependencies
-└─ README.md # Project documentation
 
 ---
 
