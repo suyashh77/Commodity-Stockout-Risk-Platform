@@ -1,4 +1,3 @@
-# Commodity-Stockout-Risk-Platform
 # Commodity Stockout Risk Platform
 
 This project is a **Streamlit-based web application** that monitors potential **stockout risks for commodities** using market signals from financial data. The app uses **prices, volume, and technical indicators** as proxies to detect supply chain stress, and leverages machine learning to provide short-term early-warning signals.
